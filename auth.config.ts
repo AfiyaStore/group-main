@@ -53,7 +53,6 @@
 //     },
 //   },
 // } satisfies NextAuthConfig
-
 import type { NextAuthConfig } from 'next-auth'
 
 export default {
