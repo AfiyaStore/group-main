@@ -5,10 +5,10 @@ import GoogleProvider from 'next-auth/providers/google'
 
 export default {
   providers: [
-    GoogleProvider({
-      clientId: process.env.AUTH_GOOGLE_ID!,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET!,
-    }),
+    // GoogleProvider({
+    //   clientId: process.env.AUTH_GOOGLE_ID!,
+    //   clientSecret: process.env.AUTH_GOOGLE_SECRET!,
+    // }),
     // এখানে চাইলে আরও providers যোগ করতে পারো
   ],
   trustHost: true, // ✅ UntrustedHost error fix
